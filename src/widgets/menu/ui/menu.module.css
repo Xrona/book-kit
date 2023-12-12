@@ -1,0 +1,10 @@
+.menu {
+	display: flex;
+	gap: var(--step);
+	padding: 0 0 8px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	background-color: var(--highlight-bg);
+}

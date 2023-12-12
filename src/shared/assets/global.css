@@ -1,0 +1,33 @@
+@import 'theme.css';
+
+:root {
+	--border: 1px;
+	--step: 4px;
+	--transition-slow: 333ms ease-in;
+	--transition-fast: 100ms ease;
+}
+
+html {
+	background-color: var(--highlight-bg);
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.books-row-container {
+	width: 100vw;
+	overflow-x: hidden;
+	margin-bottom: calc(var(--step) * 8);
+}
+
+.books-row-header {
+	margin-bottom: calc(var(--step) * 3);
+	padding: 0 calc(var(--step) * 4);
+}
+
+.books-row-title {
+	font-size: 1.2rem;
+	font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.menuItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 33%;
+	padding: calc(var(--step) * 2) 0;
+	font-size: 0.8rem;
+	color: var(--highlight-text-color);
+	border-radius: calc(var(--step) * 2);
+}
+
+.menuItem.active {
+	background-color: var(--primary-color);
+}
+
+.title {
+	display: inline-block;
+	margin-top: var(--step);
+	font-weight: 100;
+}
